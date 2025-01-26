@@ -25,6 +25,8 @@ def load_data():
     # Nuevo cambio en el archivo
     # test 123
 
+    # Nuevo cambio en local
+
     df = pd.read_csv("datos_energia.csv", parse_dates=['time'])
     # df['date'] = pd.to_datetime(df['time'])
 
